@@ -30,3 +30,34 @@ The framework is designed to operate using existing plant instrumentation withou
 - Industrial digital transformation (Industry 4.0)
 
 ## Repository Structure
+
+## Requirements
+- MATLAB (R2022b or later recommended)  
+- Simulink  
+- Deep Learning Toolbox  
+- Signal Processing Toolbox  
+- OPC Toolbox (for live data integration)
+
+## Results Summary
+The implemented model demonstrates:
+- RMSE < 0.02 (vibration channels)  
+- MAE < 0.01 (temperature channels)  
+- Early fault detection (30–45 seconds lead time)  
+- High repeatability and robustness under simulated faults  
+
+## Data Availability
+Synthetic datasets and model scripts are provided within this repository to support reproducibility of results.
+
+## Citation
+If you use this work, please cite:
+
+Harrington, C., Rahman, A.  
+"Methodology for Implementing a Predictive Digital Twin in Virtual Space: A Power Generation Case Study with MATLAB/Simulink Experiments."
+
+## Author
+Clifford Harrington  
+Doctor of Engineering Candidate  
+Engineering Institute of Technology, Perth, Australia  
+
+## License
+This project is provided for research and educational purposes.
